@@ -1,0 +1,203 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Retail Park: sun through brick</title>
+<meta name="description" content="Retail Park is a low line of shops built around open-air courts instead of one enclosed mall. Design: TCI Engineering Consultant. Interiors: TCI Interiors.">
+<meta name="theme-color" content="#120d0a">
+<link rel="icon" href="data:,">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,100..900&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/site.css">
+</head>
+<body>
+
+<canvas id="gl" aria-hidden="true"></canvas>
+
+<header class="bar">
+  <a class="wordmark" href="#v-hero">Retail&nbsp;Park</a>
+  <nav class="bar-right" aria-label="Page">
+    <a class="bar-link" href="#end">Enquire</a>
+    <button id="sound" type="button" aria-pressed="false" aria-label="Enable sound"><span class="sound-dot" aria-hidden="true"></span><span data-label>Enable sound</span><span data-alt aria-hidden="true"></span></button>
+  </nav>
+</header>
+
+<main id="page">
+
+  <!-- 0 · Hero, first light -->
+  <section class="view" id="v-hero" data-view="hero" data-hour="first light">
+    <div class="frame">
+      <div class="copy at-bl">
+        <p class="hour"><span data-clock>06:48</span><span class="sep" aria-hidden="true"> · </span>first light</p>
+        <h1 class="mark">Retail&nbsp;Park</h1>
+        <p class="strap">The sun comes in <em>through</em> the&nbsp;brick.</p>
+        <p class="body">Retail Park is a low line of shops built around open-air courts. Its corner building wears a screen of square brick blocks. At first light the screen throws a grid across the room behind it, and the grid moves through the&nbsp;day.</p>
+      </div>
+      <p class="hint at-br">
+        <span class="hint-pointer">Move the pointer. It is the&nbsp;sun.</span>
+        <span class="hint-touch">Drag sideways. It is the&nbsp;sun.</span>
+        <span class="hint-scroll">Scroll, and the day&nbsp;passes.</span>
+      </p>
+    </div>
+  </section>
+
+  <!-- 1 · The screen, morning -->
+  <section class="view" id="v-screen" data-view="screen" data-hour="morning">
+    <div class="frame">
+      <div class="copy at-bl">
+        <p class="hour"><span data-clock>08:05</span><span class="sep" aria-hidden="true"> · </span>morning</p>
+        <h2>A screen that <em>filters</em> the&nbsp;sun.</h2>
+        <p class="body">The corner building is wrapped in a perforated brick screen. It filters the sun by day and glows at night. Indoors, the same square blocks line the entrance atrium, the arcade and the walk beside the&nbsp;garden.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 2 · The site, mid morning -->
+  <section class="view" id="v-site" data-view="site" data-hour="mid morning">
+    <div class="frame">
+      <div class="copy at-tl">
+        <p class="hour"><span data-clock>09:40</span><span class="sep" aria-hidden="true"> · </span>mid morning</p>
+        <h2>A low line of shops around <em>open</em>&nbsp;courts.</h2>
+        <p class="body">Retail Park is built around open-air courts instead of one enclosed mall. You arrive at a planted plaza under two date palms. Everything else is named on the ground, where it&nbsp;stands.</p>
+        <ul class="sr" aria-label="Places named on the ground">
+          <li>Entrance and planted plaza</li>
+          <li>Market court</li>
+          <li>Central square</li>
+          <li>Food trucks</li>
+          <li>Retail strip</li>
+          <li>Brick screen building</li>
+          <li>Parking</li>
+          <li>Running track</li>
+          <li>Park</li>
+          <li>Dunes</li>
+        </ul>
+      </div>
+      <div class="facts-wrap at-br">
+        <table class="facts">
+          <caption class="facts-note">Counted from the setting-out plan</caption>
+          <tbody>
+            <tr data-counted><th scope="row">Parking spaces</th><td data-fact="parking"></td></tr>
+            <tr data-counted><th scope="row">Food and beverage units</th><td data-fact="fnb"></td></tr>
+            <tr data-counted><th scope="row">Running track</th><td data-fact="trackLength"></td></tr>
+            <tr data-counted><th scope="row">Shade sails</th><td data-fact="sails"></td></tr>
+            <tr data-counted><th scope="row">Food trucks</th><td data-fact="trucks"></td></tr>
+            <tr class="credit"><th scope="row">Design</th><td>TCI Engineering Consultant</td></tr>
+            <tr class="credit"><th scope="row">Interiors</th><td>TCI&nbsp;Interiors</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- 3 · The market court, noon -->
+  <section class="view" id="v-court" data-view="court" data-hour="noon">
+    <div class="frame">
+      <div class="copy at-bl">
+        <p class="hour"><span data-clock>12:01</span><span class="sep" aria-hidden="true"> · </span>noon</p>
+        <h2>Noon, under the&nbsp;<em>sails</em>.</h2>
+        <p class="body">White fabric sails shade a market court of stalls and café&nbsp;tables. Outside, the ground is bright. Under the sails, it is&nbsp;not.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 4 · The food trucks and the central square, afternoon -->
+  <section class="view" id="v-trucks" data-view="trucks" data-hour="afternoon">
+    <div class="frame">
+      <div class="copy at-br">
+        <p class="hour"><span data-clock>15:10</span><span class="sep" aria-hidden="true"> · </span>afternoon</p>
+        <h2>Food trucks along the <em>central</em>&nbsp;square.</h2>
+        <p class="body">The trucks park along the edge of the square. The strings of lights above it are for&nbsp;later.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 5 · The running track and the park, golden hour -->
+  <section class="view" id="v-track" data-view="track" data-hour="golden hour">
+    <div class="frame">
+      <div class="copy at-bl">
+        <p class="hour"><span data-clock>16:55</span><span class="sep" aria-hidden="true"> · </span>golden hour</p>
+        <h2>A red track at the <em>edge</em> of the&nbsp;dunes.</h2>
+        <p class="body">The running track and a strip of park follow the edge of the dunes for the full length of the site. Late in the day the trees lay their shadows across&nbsp;it.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 6 · Night -->
+  <section class="view" id="v-night" data-view="night" data-hour="night">
+    <div class="frame">
+      <div class="copy at-tl">
+        <p class="hour"><span data-clock>18:40</span><span class="sep" aria-hidden="true"> · </span>night</p>
+        <h2>The light turns&nbsp;<em>round</em>.</h2>
+        <p class="body">Day comes in through the brick. Night goes out through it. The square is strung with lights, the screen glows, and the lamp behind it is now yours to&nbsp;move.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Eight stills -->
+  <section id="stills" aria-labelledby="stills-title">
+    <div class="stills-head">
+      <h2 id="stills-title" class="stills-title">Eight stills</h2>
+      <p class="stills-note">From the design renders. Drag to see the&nbsp;rest.</p>
+    </div>
+    <ul class="strip" tabindex="0" aria-label="Eight stills of Retail Park">
+      <li><figure>
+        <img src="stills/01_aerial.jpg" width="1728" height="2160" loading="lazy" decoding="async" draggable="false" alt="Retail Park from the air at golden hour: a low line of shops and courts against desert dunes.">
+        <figcaption><span class="n">01</span>The site against the dunes</figcaption>
+      </figure></li>
+      <li><figure>
+        <img src="stills/02_entrance.jpg" width="1728" height="2160" loading="lazy" decoding="async" draggable="false" alt="The entrance building, with a dark fascia, terracotta panels and two date palms.">
+        <figcaption><span class="n">02</span>The entrance, under two date palms</figcaption>
+      </figure></li>
+      <li><figure>
+        <img src="stills/03_brick_lattice.jpg" width="1728" height="2160" loading="lazy" decoding="async" draggable="false" alt="The corner building wrapped in a perforated brick screen, seen at its curved corner.">
+        <figcaption><span class="n">03</span>The brick screen</figcaption>
+      </figure></li>
+      <li><figure>
+        <img src="stills/04_market_court.jpg" width="1728" height="2160" loading="lazy" decoding="async" draggable="false" alt="The market court: stalls and café tables in the shade of fabric sails.">
+        <figcaption><span class="n">04</span>The market court, under the sails</figcaption>
+      </figure></li>
+      <li><figure>
+        <img src="stills/05_food_trucks.jpg" width="1728" height="2160" loading="lazy" decoding="async" draggable="false" alt="A row of food trucks with seating beside the central square.">
+        <figcaption><span class="n">05</span>Food trucks along the central square</figcaption>
+      </figure></li>
+      <li><figure>
+        <img src="stills/06_running_track.jpg" width="1728" height="2160" loading="lazy" decoding="async" draggable="false" alt="The red running track and the strip of park along the edge of the dunes.">
+        <figcaption><span class="n">06</span>The running track and the park</figcaption>
+      </figure></li>
+      <li><figure>
+        <img src="stills/07_entrance_plaza.jpg" width="1728" height="2160" loading="lazy" decoding="async" draggable="false" alt="The planted plaza at the entrance, at eye level, with red flowering trees.">
+        <figcaption><span class="n">07</span>The planted plaza</figcaption>
+      </figure></li>
+      <li><figure>
+        <img src="stills/08_dusk_aerial.jpg" width="1728" height="2160" loading="lazy" decoding="async" draggable="false" alt="Retail Park from the air at dusk, with the central square strung with lights.">
+        <figcaption><span class="n">08</span>The site at dusk</figcaption>
+      </figure></li>
+    </ul>
+  </section>
+
+</main>
+
+<!-- Credits, enquiry, footer: transparent, the night plaza shows behind it -->
+<footer id="end">
+  <div class="end-inner">
+    <a id="enquire" class="enquire" href="#end" aria-disabled="true">Enquire</a>
+    <dl class="credits">
+      <div><dt>Design</dt><dd>TCI Engineering Consultant</dd></div>
+      <div><dt>Interiors</dt><dd>TCI&nbsp;Interiors</dd></div>
+      <div data-site-row hidden><dt>Developer</dt><dd data-site="developer"></dd></div>
+      <div data-site-row hidden><dt>Location</dt><dd data-site="location"></dd></div>
+      <div data-site-row hidden><dt>Opening</dt><dd data-site="openingDate"></dd></div>
+    </dl>
+    <div class="colophon">
+      <p>Retail&nbsp;Park. The stills are design renders. On this page the light is computed from the brick screen and the position of the&nbsp;sun.</p>
+      <a class="back" href="#v-hero">Back to first light</a>
+    </div>
+  </div>
+</footer>
+
+<script type="importmap">{"imports":{"three":"./lib/three.module.js"}}</script>
+<script type="module" src="js/main.js"></script>
+</body>
+</html>
